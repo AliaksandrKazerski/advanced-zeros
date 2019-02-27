@@ -14,9 +14,7 @@ module.exports = function getZerosCount(number, base) {
     if (base === 1) { 
       break;
     }
-    var count = 0;
-    var result = 0;
-    var numLoop = number;
+    var count = 0, result = 0, numLoop = number;
     while (base % prNum[i] === 0){ 
       count++; // save pow
       base /= prNum[i];
